@@ -1,0 +1,40 @@
+.title
+{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 0.6rem;
+    margin-top: 0.3rem;
+}
+
+.contents
+{
+    display: flex;
+    height:150px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-bottom: 20px;
+    
+}
+
+.contents::-webkit-scrollbar
+{
+    display: none;
+}
+
+.img
+
+{
+    margin-right: 10px;
+    width:280px;
+    height: 150px;
+
+    object-fit: contain;
+}
+
+
+.img:hover
+{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
